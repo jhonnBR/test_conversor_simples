@@ -1,0 +1,13 @@
+# Configurações Locais
+.env.local
+
+# Banco de Dados
+database.sqlite
+
+# Erros e Logs
+error_log
+php_errors.log
+
+# IDEs
+.vscode/
+.idea/
