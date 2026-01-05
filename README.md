@@ -1,6 +1,6 @@
 # 💱 Dashboard de Cotações Pro
 
-Uma aplicação moderna e robusta para monitoramento de câmbio em tempo real, construída com foco em performance e segurança utilizando as features mais recentes do **PHP 8.5.1**.
+Uma aplicação moderna e robusta para monitoramento de câmbio em tempo real, construída com foco em performance e segurança utilizando o **PHP 8.4**.
 
 ## 🚀 Principais Funcionalidades
 
@@ -13,14 +13,14 @@ Uma aplicação moderna e robusta para monitoramento de câmbio em tempo real, c
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend**: PHP 8.5.1 (Enums, Readonly Classes, Constructor Promotion, Named Arguments).
+- **Backend**: PHP 8.4 (Enums, Readonly Classes, Constructor Promotion, Match Expressions, Typed Constants).
 - **Banco de Dados**: SQLite3 (via PDO).
 - **Frontend**: Vanilla JS (ES6+), CSS3 (Modern UI c/ Dark Mode).
 - **API Externa**: [AwesomeAPI](https://docs.awesomeapi.com.br/) (Câmbio de Moedas).
 
 ## 📋 Pré-requisitos
 
-- PHP 8.5.1 ou superior.
+- PHP 8.4 ou superior.
 - Extensões PHP habilitadas: `curl`, `pdo_sqlite`, `openssl`.
 
 ## 🔧 Instalação e Configuração

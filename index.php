@@ -5,12 +5,12 @@ declare(strict_types=1);
 /**
  * Super Dashboard de Cotações & Conversor c/ Cache SQLite - PHP 8.5.1
  * 
- * @version 4.0.0
- * @requires PHP 8.5.0+ (ext-pdo_sqlite habilitada)
+ * @version 4.1.0
+ * @requires PHP 8.4.0+ (ext-pdo_sqlite habilitada)
  */
 
-if (version_compare(PHP_VERSION, '8.5.0', '<')) {
-    exit('Considere atualizar para o PHP 8.5.0+');
+if (version_compare(PHP_VERSION, '8.4.0', '<')) {
+    exit('Este sistema requer PHP 8.4.0 ou superior. Versão atual: ' . PHP_VERSION);
 }
 
 // ============================================================================
@@ -410,7 +410,7 @@ foreach ($quotes as $q) {
         </main>
 
         <footer>
-            Dados fornecidos em tempo real por <a href="https://docs.awesomeapi.com.br/" target="_blank">AwesomeAPI</a> • PHP 8.5.1
+            Dados fornecidos em tempo real por <a href="https://docs.awesomeapi.com.br/" target="_blank">AwesomeAPI</a> • PHP 8.4
         </footer>
     </div>
 
